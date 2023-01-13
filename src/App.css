@@ -17,6 +17,8 @@ main{
   justify-content: center;
   width: 100vw;
   height: 100vh;
+  background: linear-gradient(to right, #232526, #414345);
+
 }
 #calculator {
   text-align: center;
@@ -63,3 +65,9 @@ button:hover{
     outline: .05em solid grey;
     z-index: 3;
   }
+#clear{
+  background-color: #9e1b32
+}
+#equals{
+  background-color:#4B6F44
+}
